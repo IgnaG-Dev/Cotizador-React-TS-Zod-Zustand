@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Cotizador de Criptomonedas 🪙
+### Este proyecto se conecta a una API para obtener el precio de una criptomoneda en dólares, pesos argentinos y otras monedas. Utiliza Zustand y Zod para validar las respuestas de la API.
+> Explora la demo del sitio web en el siguiente enlace: [Cotizador](https://cotizador-ign.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Imagen de Pagina Web](https://github.com/IgnaG-Dev/Cotizador-React-TS-Zod-Zustand/assets/163780789/3f40703e-82d1-43e4-b083-04a7798e7013 "Pagina Web Cotizador")
 
-Currently, two official plugins are available:
+## Funcionalidades principales 🥇
+- `Cotización en Múltiples Monedas`: Obtén el valor de una criptomoneda en diferentes monedas, incluyendo dólares, pesos argentinos y más.
+- `Validación de Datos`: Validación robusta de las respuestas de la API utilizando Zod.
+- `Gestión de Estado`: Uso de Zustand para gestionar el estado de la aplicación de manera eficiente.
+## Tecnologías Utilizadas 🧑‍💻
+- `React`:  Frontend desarrollado con React para la creación de componentes reutilizables y estado manejado de manera eficiente.
+- `TypeScript`: Mejora la calidad del código con tipos estáticos y detección temprana de errores.
+- `Vite`: Herramienta de desarrollo rápida y optimizada para construir aplicaciones web modernas.
+- `Zustand`: Biblioteca de gestión de estado para React, sencilla y escalable.
+- `Zod`: Biblioteca de validación de esquemas para asegurar la integridad de los datos obtenidos de la API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Configuración del Proyecto ⚒️
+>[!NOTE]
+>Asegúrate de tener Node.js y npm instalados en tu sistema.
 
-## Expanding the ESLint configuration
+1. Clona este repositorio en tu máquina local.
+   
+   ``` 
+     git clone https://github.com/IgnaG-Dev/Cotizador-React-TS-Zod-Zustand
+   ```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Rendimiento ✅
+A continuación te dejamos algunos parametros de rendimiento de la página web utilizando el plugin [LIghthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+![Rendimiento](https://github.com/IgnaG-Dev/Cotizador-React-TS-Zod-Zustand/assets/163780789/6caa34c1-0efb-44b4-bb9b-089048330c6b "Rendimiento de Cotizador")
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Contribución 📨
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar esta aplicación, por favor abre un issue para discutir los cambios propuestos o envía una pull request.
+
+## Contacto 👤
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto.
